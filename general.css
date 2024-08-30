@@ -1,0 +1,53 @@
+p{
+    font-family: Roboto,Arail;
+}
+body{
+    height: 2000px;
+}
+
+body{
+    padding-top: 90px;
+    margin-left: 140PX;
+    margin-top: 20px;
+    background-color: rgb(244, 244, 244);
+}
+.videos-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+} 
+.video-detailed{
+    margin-right: 30px;
+}
+.thumbnail-preview{
+    width: 100%;
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 85px 1fr;
+    margin-top: 10px;
+}
+.channel-picture-logo{
+    width: 65px;
+    height: 65px;
+    border-radius: 40px;
+    object-fit: cover;
+    margin-left: 2px;
+}
+.video-title{
+    font-size: 25px;
+    font-weight:500;
+    margin: 8px 0 0 0;
+    line-height: 32px;
+}
+.video-author{
+    color: rgb(98, 98, 98);
+    font-size: 21px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+.video-stats{
+    color: rgb(100,100,100);
+    font-size: 21px;
+    margin-top: 8px;
+}

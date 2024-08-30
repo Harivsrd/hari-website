@@ -1,0 +1,115 @@
+.header{
+    position: fixed;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    justify-content: space-between;
+    border-bottom: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(232, 232, 232);
+    z-index: 100;
+}
+.first-part{
+    display: flex;
+    align-items: center;
+}
+.hamburger-menu{
+    height: 36px;
+    margin-left: 36px;
+    margin-right: 10px;
+}
+.youtube-logo{
+    height: 32px;
+    margin-left: 28px;
+}
+.middle-part{
+    flex: 1;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    margin-left: 80px;
+    max-width: 600px;
+    
+}
+.search-bar{
+        flex: 1;
+    border: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    font-size: 24px;
+    border-color: rgb(192, 192, 192);
+    padding-left: 20px;
+    padding-top: 4px;
+    height: 50px;
+    width: 0;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+}
+.search-bar::placeholder{
+    font-size: 24px;
+}
+.search-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    width:  100px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -2px;
+    margin-right: 10px;
+}
+.search-icon{
+    height: 36px;
+}
+.last-part{
+    display: flex;
+    align-items: center;
+    width: 360px;
+    justify-content: space-between;
+    margin-right: 36px;
+    flex-shrink: 0;
+}
+.voice-search-icon{
+    height: 36px;
+}
+.voice-search-button{
+    background-color: rgb(245, 245, 245);
+    height: 60px;
+    width: 60px;
+    border-radius:30px;
+    border: none; 
+
+}
+.upload-buuton{
+    height: 36px;
+}
+.youtube-apps{
+    height: 36px;
+}
+.notifications-button{
+    height: 36px;
+}
+.notification-container{
+    position: relative;
+}
+.notification-count{
+    position: absolute;
+    top: -1px;
+    right: -3px;
+    color: white;
+    background-color: rgb(180, 3, 3);
+    padding: 1px 6px 1px 6px;
+    border-radius: 12px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+.my-channel-logo{
+    height: 48px;
+}

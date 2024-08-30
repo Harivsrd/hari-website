@@ -1,0 +1,31 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 110px;
+    top: 78px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    z-index: 200;;
+    align-items: center;
+}
+.home,.youtube-music{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: 100px;
+    width: 110px;
+    font-size: 16px;
+    margin-top: 12px;
+    transition: background-color 0.15s;
+}
+.home-icon{
+    height: 36px;
+}
+.youtube-music{
+   font-size: 14px; 
+}
+.home:hover,.youtube-music:hover{
+    background-color: rgb(205, 205, 205);
+    width: 110px;
+}
